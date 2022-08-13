@@ -7,7 +7,12 @@ const path = require("path");
 const questions = [{
     type: "input",
     name: "title",
-    message: "What is the title of the project?"
+    message: "What is the title of the project?",
+    validate: answer =>{
+        if (answer !== ""){
+            return true;
+        } return "title is required"
+    }
 }, {
     type: "list",
     name: "license",
@@ -28,7 +33,8 @@ const questions = [{
 }, {
     type: "input",
     name: "test",
-    message: "What is the test suite that runs tests in?"
+    message: "What is the test suite that runs tests in?",
+    default: "no test specified"
 }];
 
 // TODO: Create a function to write README file
