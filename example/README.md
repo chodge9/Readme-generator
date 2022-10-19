@@ -1,4 +1,4 @@
-# aa
+# README
 ![MIT](https://img.shields.io/badge/license-MIT-blue)
 
 ## table of contents
@@ -8,16 +8,13 @@
 
 * [Usage](#usage)
 
-* [Test](#test)
-
 ### Description
-feswfre
+a readme generator
 
 ### Installation 
-hgtgtr
+from the command line of the terminal run node inde.js
 
 ### Usage
-fecf
+to generate a basic readme file based on info input for a project
 
-### Test
-no test specified
+
